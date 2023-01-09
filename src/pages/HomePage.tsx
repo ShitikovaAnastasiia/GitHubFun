@@ -19,7 +19,7 @@ const HomePage = () => {
     const [fetchRepos, {isLoading: isReposLoading, data: repos}] = useLazyGerUserItemQuery()
 
     return (
-        <div className='flex justify-center mx-auto h-screen w-screen pt-20 font-["Nunito"] bg-gray-800'>
+        <div className='flex justify-center mx-auto min-h-screen pt-20 font-["Nunito"] bg-gray-800'>
             <div className='relative w-[550px]'>
                 <input type='text' className='border py-3 px-5 w-full h-[42px] mb-2'
                        placeholder='Find Your Profile'
